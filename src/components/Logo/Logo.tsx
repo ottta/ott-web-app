@@ -24,8 +24,9 @@ const Logo: React.FC<Props> = ({ src, onLoad }: Props) => {
 
   return (
     <Link to="/">
-      <img className={styles.logo} alt="logo" src={src} height={imgDimensions.height} width={imgDimensions.width} onLoad={onLoadHandler} onError={onLoad} />
-    </Link>
+<!--       <img className={styles.logo} alt="logo" src={src} height={imgDimensions.height} width={imgDimensions.width} onLoad={onLoadHandler} onError={onLoad} /> -->
+    Logo
+  </Link>
   );
 };
 
